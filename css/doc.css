@@ -1,0 +1,43 @@
+
+.loginbox {
+margin: 10px;
+padding: 10px;
+border: 1px solid #DDD;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+background-color: rgba(250, 250, 250, .3);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.my_item_header{
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid rgb(31, 139, 224);
+}
+
+.my_item_title{
+	margin: 0;
+	font-family: inherit;
+	font-weight: bold;
+	color: inherit;
+	text-rendering: optimizelegibility;
+	line-height: 27px;
+	font-size: 18px;
+}
+
+.btn_items_delete{
+	margin: 0px -100px 0px 12px;
+}
+
+.btn_items_update{
+	margin: 0px -100px 0px 12px;
+}
+
+.my_item_view_option{
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid rgb(31, 139, 224);
+}
