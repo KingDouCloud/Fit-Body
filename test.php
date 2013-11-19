@@ -1,10 +1,6 @@
 <?php
 class Test
 {
-	//构造函数
-	public function __construct()
-		{
-		}
 	//根据学生id查找
 	public function test()
 	{
@@ -16,6 +12,14 @@ class Test
 		return $infoclass;
 	}
 }
+
+$t = new Test();
+$result = $t->test();
+	echo($result[0]."<br>");
+
+$t = new Test();
+$result = $t->test();
+	echo($result[0]."<br>");
 
 $t = new Test();
 $result = $t->test();
